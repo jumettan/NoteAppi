@@ -8,7 +8,7 @@ tämän jälkeen annetaan komento npm run dev ja ohjelma antaa sinulle http osoi
 HUOM! OHJELMA EI TOIMI JOS KOMENNOT ANNETAAN \Frontend_lopputyo KANSIOSSA!!! TÄYTYY OLLA \Frontend_lopputyo\NoteApp
 Ohjeet lyhyesti ja selkeämmin.
 1. avaa ohjelma github desktopissa tai lataa koko tiedosto zippinä omalle koneellesi.
-2. Varmista, että koneelle on asennettu node.js. aja command promtissa "npm --version" jos et ole varma.
+2. Varmista, että koneelle on asennettu node.js. aja command promtissa "node --version" ja "npm --version" jos et ole varma.
 3. Huom. jumettan/Frontend_lopputyo kansiossa paina vihreää code nappulaa ja valitse sopiva vaihtoehto
 4. Kun olet saanut tiedostot koneellesi suunnista kansioon C:\...\Frontend_lopputyo\NoteApp cmd ja anna komento code .
 5. jos avasit tiedosto github desktopissa ja sitten visual studio codessa suunnista samaan tiedostoon terminaalissa. ei tarvitse antaa komentoa code .
