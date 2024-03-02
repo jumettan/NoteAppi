@@ -1,0 +1,154 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.App{
+  border-style: solid;
+  width: 750px;
+  height: 750px;
+}
+.mainDiv{
+  display: flex;
+  
+}
+.header-left{
+  flex: 1;
+    
+    width: 80%;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.divContainer{
+  font-size: 25px;
+  position: relative;
+  width: 500px;
+  padding-left: 20px;
+  list-style: none;
+  color: black;
+}
+.backBtn{
+    position: relative;
+    font-size: 25px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.homeUL{
+  padding: 0px;
+  float: left;
+  
+  
+}
+.divCreate{
+  border-style: solid;
+  display: inline-block;
+  padding-left: 10px;
+  width: 275px;
+}
+.divList{
+  display: inline-block;
+  border-style: solid;
+  padding-left: 10px;
+  margin-left: 10px;
+  text-align: center;
+  width: 150px;
+}
+.addCoursesContainer{
+  display: grid;
+  float: left;
+  width: 300px;
+  height: auto;
+
+}
+.linkColor{
+  color: black;
+}
+.divAdd{
+  margin-top: 10px;
+  position: relative;
+  width: 150px;
+  border-style: solid;
+  margin-left: 17px;
+  
+}
+
+.ListedNotesCont{
+  overflow: auto;
+  height: 500px;
+  word-wrap: break-word
+}
+.ListNotesCont{
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.noteText{
+  width: fit-content;
+  font-size: 20px;
+  word-wrap: break-word
+}
+.noteCont{
+  border-style: solid;
+  margin-left: 75px;
+  width: 600px;
+  text-align: center;
+  
+}
+.noteInfo{
+  width: auto;
+  
+}
+.noNotes{
+  margin-top: 100px;
+  font-size: 20px;
+}
+.deleteBtn{
+  float: right;
+}
+.add-note-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+.add-note-select {
+  margin-bottom: 10px;
+  float: left;
+  padding-right: 500px;
+}
+
+.add-note-input,
+.add-note-button {
+  display: block;
+}
+
+.add-note-input {
+  height: 150px;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.add-note-button {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.newNotesDisplay{
+  overflow-y: scroll;
+  width: auto;
+  height: 250px;
+}
+.noteText{
+  word-wrap: break-word;
+  width: 100%;
+}
